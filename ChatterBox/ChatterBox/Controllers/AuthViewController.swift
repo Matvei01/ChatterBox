@@ -11,11 +11,23 @@ final class AuthViewController: UIViewController {
 
     private lazy var emailButton = UIButton(
         title: "Email",
+        titleColor: .white,
+        backgroundColor: .appBlack,
+        isShadow: false
+    )
+    
+    private lazy var loginButton = UIButton(
+        title: "Login",
+        titleColor: .appRed,
+        backgroundColor: .appWhite,
+        isShadow: true
+    )
+    
+    private lazy var googleButton = UIButton(
+        title: "Google",
         titleColor: .black,
-        backgroundColor: .white,
-        font: .avenir20(),
-        isShadow: true,
-        cornerRadius: 4
+        backgroundColor: .appWhite,
+        isShadow: true
     )
     
     override func viewDidLoad() {
