@@ -13,6 +13,7 @@
 		1A36678B2C0319F9003D6C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A36678A2C0319F9003D6C15 /* Assets.xcassets */; };
 		1A36678E2C0319F9003D6C15 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A36678D2C0319F9003D6C15 /* Base */; };
 		1A3667972C0322BB003D6C15 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3667962C0322BB003D6C15 /* UIButton+Extension.swift */; };
+		1A36679D2C04ACEA003D6C15 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A36679C2C04ACEA003D6C15 /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1A36678D2C0319F9003D6C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A36678F2C0319F9003D6C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A3667962C0322BB003D6C15 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		1A36679C2C04ACEA003D6C15 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				1A3667962C0322BB003D6C15 /* UIButton+Extension.swift */,
+				1A36679C2C04ACEA003D6C15 /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				1A3667862C0319F7003D6C15 /* AuthViewController.swift in Sources */,
 				1A3667972C0322BB003D6C15 /* UIButton+Extension.swift in Sources */,
 				1A3667822C0319F7003D6C15 /* AppDelegate.swift in Sources */,
+				1A36679D2C04ACEA003D6C15 /* UIFont+Extension.swift in Sources */,
 				1A3667842C0319F7003D6C15 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
