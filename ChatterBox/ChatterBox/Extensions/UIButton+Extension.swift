@@ -11,17 +11,15 @@ extension UIButton {
     convenience init(title: String,
                      titleColor: UIColor,
                      backgroundColor: UIColor,
-                     font: UIFont?,
-                     isShadow: Bool,
-                     cornerRadius: CGFloat) {
+                     isShadow: Bool) {
         
         self.init(type: .system)
         
         self.setTitle(title, for: .normal)
         self.setTitleColor(titleColor, for: .normal)
         self.backgroundColor = backgroundColor
-        self.titleLabel?.font = font
-        self.layer.cornerRadius = cornerRadius
+        self.titleLabel?.font = .avenir20()
+        self.layer.cornerRadius = 4
         
         if isShadow {
             self.layer.shadowColor = UIColor.black.cgColor
