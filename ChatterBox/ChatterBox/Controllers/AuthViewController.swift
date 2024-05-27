@@ -13,9 +13,9 @@ final class AuthViewController: UIViewController {
         title: "Email",
         titleColor: .black,
         backgroundColor: .white,
-        font: .systemFont(ofSize: 14),
+        font: .avenir20(),
         isShadow: true,
-        cornerRadius: 20
+        cornerRadius: 4
     )
     
     override func viewDidLoad() {
